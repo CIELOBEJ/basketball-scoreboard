@@ -1,0 +1,75 @@
+body {
+    margin:0;
+}
+ 
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;    
+}
+#home, #guest {
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.893px; /* 89.732% */
+    width: 149px;
+}
+#home-score {
+     width: 155px;
+    height: 120px;
+    flex-shrink: 0;    
+}
+ #home-points {
+    width: 117px;
+    height: 120px;
+    flex-shrink: 0;
+    margin: -120px 20px 20px 20px;
+    font-family: 'Cursed Timer ULiL';
+    font-weight: normal;
+    font-style: normal;
+} 
+ #guest-points {
+    width: 117px;
+    height: 120px;
+    flex-shrink: 0;
+    margin: -120px 20px 20px 20px;
+    font-family: 'Cursed Timer ULiL';
+    font-weight: normal;
+    font-style: normal;
+} 
+h3 {
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 140.74%;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F94F6D;
+}
+  @font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: local('Cursed Timer ULiL');
+    src:url('CursedTimerULiL.eot');
+    src: url('CursedTimerULiL.eot?#iefix') format('embedded-opentype'),
+        url('CursedTimerULiL.woff2') format('woff2'),
+        url('CursedTimerULiL.woff') format('woff'),
+        url('CursedTimerULiL.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} 
+button {
+    background: none;
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-bottom: 40px;
+    padding-top: 5px;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
